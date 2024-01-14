@@ -67,7 +67,60 @@
          .banner-img>img{  
              margin-top: 20px;
              width:100%;
-         }   
+         }  
+          /* this is main section part  */   
+
+ .main-part{  
+     max-width: 1440px;
+     margin: 0 240px;
+ }
+
+
+
+            .future{ 
+                 display: flex;
+                  margin-top: 100px;
+                   align-items: center; 
+                  
+            }  
+             .future-picture{  
+                 
+                 display: grid; 
+                  grid-template-columns: repeat(2,1fr); 
+                   gap: 15px;
+             } 
+              .future-picture>img{ 
+                 height: 250px;
+              }
+             .future-details{ 
+                 padding-left: 72px;
+             }
+           .future-heading{ 
+            width: 468px;
+           
+           color:  #131313;
+           font-size: 2.8rem;
+           font-weight: 500;
+    } 
+      .quick{ 
+         color: #727272;
+      } 
+       .feature{ 
+         color: #FF900E;
+       } 
+        .future-pera-details{ 
+            width: 537px;
+            color:  #727272;
+             font-size: 1rem;
+            font-weight: 400;
+
+        }
+
+
+
+
+
+
                 /* reponsive website  */ 
                  @media screen and ( max-width:576px) {
                      header{ 
@@ -95,4 +148,32 @@
                       nav{ 
                         flex-direction: column;
                       }
-                   }
+                   }  
+                     
+
+                    /* this is main part media quary  */
+                    @media screen  and (max-width:576px) { 
+                         
+                         .future{ 
+                             flex-direction: column-reverse; 
+                              gap: 20px;
+                         } 
+                          .future-picture{ 
+                             grid-template-columns: repeat(1,1fr);
+                          } 
+                           .future-details{ 
+                            
+                           }
+                            .future-pera-details{ 
+                                 width: 100%;
+                            } 
+                           .main-part{ 
+                                 margin: 0;
+                             }
+                    } 
+                     @media screen and (min-width:576px) and (max-width:960px) {
+                        .future{ 
+                            flex-direction: column-reverse; 
+                             gap: 20px;}
+                     }
+                     
