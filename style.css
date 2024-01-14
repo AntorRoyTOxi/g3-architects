@@ -1,6 +1,19 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&family=Merriweather&family=Roboto:wght@300&family=Work+Sans:wght@400;500;600;800&display=swap'); 
-   *{ 
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&family=Merriweather&family=Roboto:wght@300&family=Work+Sans:wght@400;500;600;800&display=swap');
+  
+  
+    /* this is shared option  */
+   .primary-btn{ 
+    border-radius: 8px;
+    background: #FF900E; 
+     color: #fff; 
+      font-size: 1.2rem; 
+       font-weight: 600; 
+     padding: 20px 25px; 
+      border: none;
+   }
+  
+  *{ 
     
     font-family: 'Work Sans', sans-serif;
    } 
@@ -35,4 +48,18 @@
           color: #424242; 
            font-size: 1rem; 
             font-weight: 500;
-    }
+    }  
+
+     /* this is banner part  */ 
+      .banner{ 
+         width: 864px; 
+      text-align: center;
+      } 
+       .banner-title{ 
+         font-size: 4rem;
+         font-weight: 700; 
+          color: #131313;
+       } 
+        .banner-details{ 
+             color: #727272;
+        }
