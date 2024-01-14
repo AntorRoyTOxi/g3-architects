@@ -10,7 +10,8 @@
       font-size: 1.2rem; 
        font-weight: 600; 
      padding: 20px 25px; 
-      border: none;
+      border: none; 
+       cursor: pointer;
    }
   
   *{ 
@@ -62,4 +63,36 @@
        } 
         .banner-details{ 
              color: #727272;
-        }
+        } 
+         .banner-img>img{  
+             margin-top: 20px;
+             width:100%;
+         }   
+                /* reponsive website  */ 
+                 @media screen and ( max-width:576px) {
+                     header{ 
+                         padding: 0px;
+                     } 
+                      .banner{ 
+                         width: 100%; 
+                       
+                      } 
+                       nav{ 
+                         flex-direction: column;
+                       }
+                 }  
+
+
+                  /* tablet and mediam device  */ 
+                   @media screen and (min-width:576px) and  (max-width:960px) {
+                    header{ 
+                        padding: 0;
+                    } 
+                     .banner{ 
+                        width: 100%; 
+                      
+                     } 
+                      nav{ 
+                        flex-direction: column;
+                      }
+                   }
