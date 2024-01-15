@@ -307,7 +307,9 @@
 
                           .future{ 
                              flex-direction: column-reverse;
-                               margin-left: 0;
+                               margin-left: 0; 
+                                margin-top: 0; 
+                                 gap: 35px;
                           } 
                            .future-picture{ 
                              grid-template-columns: 1fr;
